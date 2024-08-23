@@ -129,6 +129,42 @@
     max-width: 1144px;
 }
 
+.lets-together-make {
+    max-width: 735px;
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 83.2px;
+    text-align: center;
+    color: #5A5656;
+
+
+}
+
+.pt-139 {
+    padding-top: 139px;
+}
+
+.lets-together-make span {
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    text-align: center;
+
+}
+
+.pretinium {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6E6D6C;
+    max-width: 675px;
+}
+
 .brown-box {
 
     border-radius: 16px;
@@ -259,6 +295,33 @@
 }
 
 @media (max-width:768px) {
+    .lets-together-make {
+        font-family: Ubuntu;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 46.8px;
+        text-align: center;
+
+    }
+
+    .lets-together-make span {
+        font-family: Ubuntu;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46.8px;
+        text-align: center;
+
+    }
+
+    .pretinium {
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
     .pioneering {
         font-family: Ubuntu;
         font-size: 36px;
