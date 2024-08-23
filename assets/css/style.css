@@ -31,6 +31,10 @@
 
 }
 
+.min-width-1440 {
+    width: 1440px;
+}
+
 .contact-us {
     width: 201px;
     height: 73px;
@@ -89,6 +93,10 @@
 
 }
 
+.pt-64 {
+    padding-top: 64px;
+}
+
 .zempeak-paragraph {
     font-family: Ubuntu;
     font-size: 16px;
@@ -126,6 +134,10 @@
     padding-top: 99px;
 }
 
+.pb-162 {
+    padding-bottom: 162px;
+}
+
 @media (max-width:568px) {
     .contact-us {
         width: 300px;
@@ -139,6 +151,41 @@
     .bg-brown-padding {
 
         padding-top: 72px;
+    }
+
+
+
+    .img-one-logo {
+        width: 240px;
+        height: 49.54px;
+
+    }
+
+    .head-logo {
+        padding-top: 57px;
+    }
+}
+
+@media (max-width:768px) {
+    .pioneering {
+        font-family: Ubuntu;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 46.8px;
+        text-align: center;
+    }
+
+    .zempeak-paragraph {
+        text-align: center;
+    }
+
+    .pioneering span {
+        font-family: Ubuntu;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46.8px;
+        text-align: center;
     }
 
     .expolring-heading-text {
@@ -160,13 +207,8 @@
 
     }
 
-    .img-one-logo {
-        width: 240px;
-        height: 49.54px;
-
-    }
-
-    .head-logo {
-        padding-top: 57px;
+    .d-flex-max-md {
+        display: flex;
+        align-items: center;
     }
 }
