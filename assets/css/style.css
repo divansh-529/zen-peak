@@ -125,6 +125,17 @@
     padding-bottom: 63px;
 }
 
+.max-width-1144 {
+    max-width: 1144px;
+}
+
+.brown-box {
+    width: 1144px;
+    height: 610px;
+    border-radius: 16px;
+    background: #A68272;
+}
+
 .bg-brown-padding {
     padding-bottom: 62px;
     padding-top: 80px;
