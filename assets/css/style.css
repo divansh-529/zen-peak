@@ -289,12 +289,97 @@
 
     }
 
+    .links {
+        margin-left: auto;
+        margin-right: auto;
+        width: 333px;
+
+        border-radius: 14.;
+
+    }
+
+    .big-text-of-links {
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22.98px;
+        text-align: left;
+
+    }
+
     .head-logo {
         padding-top: 57px;
     }
 }
 
+.bg-mountain {
+    background-image: url(/assets/images/png/bg-mountain-of\ links.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-box-of-links {
+    max-width: 838px;
+    border-radius: 17px;
+    border: 3px solid #A68272;
+    background: #FFFFFF;
+    padding-top: 38px;
+    padding-left: 42px;
+    padding-right: 38px;
+
+}
+
+.image-of-links {
+    box-shadow: 0px 4px 31.4px 0px #DAAF95;
+    border-radius: 17px;
+
+}
+
+.ml-23 {
+    margin-left: 23px;
+}
+
+.big-text-of-links {
+    margin-top: 3px;
+    margin-bottom: 9px;
+    color: #0C0F26;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.58px;
+    text-align: left;
+
+}
+
+.small-text-of-links {
+    color: #707070;
+
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+
+
+.links {
+    width: 365px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+    background: #FFFFFF;
+    margin-bottom: 35px;
+
+}
+
 @media (max-width:768px) {
+
+
     .lets-together-make {
         font-family: Ubuntu;
         font-size: 36px;
@@ -384,5 +469,13 @@
     .d-flex-max-md {
         display: flex;
         align-items: center;
+    }
+}
+
+@media (max-width:992px) {
+    .bg-box-of-links {
+        background: transparent;
+        border: none;
+        padding: 0 !important;
     }
 }
